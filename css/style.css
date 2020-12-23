@@ -1,0 +1,51 @@
+body{
+    background: url(../images/1.jpg);
+    background-size: cover;
+    color: #f4f6f7;
+}
+
+.container{
+    width: 40%;
+    background: #515a5a;
+    background-size: cover;
+    opacity: 0.7;
+    border-radius: 12px;
+}
+
+.container h1{
+    font-size: 50px;
+    color: white;
+    padding: 30px ;
+}
+
+.container h2{
+    background: #212f3c;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.container p{
+    padding: 10px 10px;
+    opacity: 1;
+}
+
+#insta img{
+    width: 80px;
+    height: auto;
+    padding: 1px 50px;
+}
+
+#git img{
+    height: 80px;
+    width: auto;
+}
+
+.container p a{
+    color:  #c39bd3;
+    text-decoration: none;
+}
+
+.container p a:hover{
+    color:  #f5b041;
+    transition: 1s ease;
+}
